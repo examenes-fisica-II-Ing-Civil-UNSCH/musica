@@ -1,0 +1,54 @@
+
+body{
+background:#0f172a;
+font-family:Arial;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.player{
+background:#1e293b;
+padding:25px;
+width:320px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 40px rgba(0,0,0,0.6);
+}
+
+.cover{
+width:220px;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+.controls button{
+font-size:20px;
+padding:10px 15px;
+margin:10px;
+border:none;
+border-radius:10px;
+background:#334155;
+color:white;
+cursor:pointer;
+}
+
+.controls button:hover{
+background:#475569;
+}
+
+#progress{
+width:100%;
+}
+
+.lyrics{
+margin-top:15px;
+font-size:14px;
+max-height:120px;
+overflow-y:auto;
+background:#020617;
+padding:10px;
+border-radius:10px;
+}

@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Music Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="player">
+
+<img src="img/portada.jpg" class="cover">
+
+<h2 id="title">Nombre de canción</h2>
+<h3 id="artist">Artista</h3>
+
+<audio id="audio">
+<source src="music/cancion.mp3" type="audio/mpeg">
+</audio>
+
+<div class="time">
+<span id="current">0:00</span>
+<span id="duration">0:00</span>
+</div>
+
+<input type="range" id="progress" value="0">
+
+<div class="controls">
+<button id="prev">⏮</button>
+<button id="play">▶</button>
+<button id="next">⏭</button>
+</div>
+
+<div class="lyrics">
+<p>
+Aquí van las letras de la canción.<br>
+Puedes escribir toda la letra.<br>
+Incluso separarla por versos.<br>
+Esto funciona como visor de letras.
+</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
